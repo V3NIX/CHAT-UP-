@@ -1,4 +1,4 @@
-# CHAT-UP-
+# CHAT-UP!
 Chat-UP!
 Chat-UP! is a secure chat application using Python and the TKinter library. It uses an SQLite database to store data and socket programming to transmit messages over a network. User authentication is handled using OpenLDAP and socket layer security is provided through the use of x509 certificates.
 
@@ -25,6 +25,7 @@ The Chat-UP! application consists of the following files:
 -reg.py: This file contains the code for the registration form.
 -client.py: This file contains the code for the client-side of the chat application.
 -server.py: This file contains the code for the server-side of the chat application.
+-user.db : This file contains the database of the registred users.
 Note: Make sure to run the server.py file before running the other files to ensure proper communication between the client and server.
 
 *Dependencies*
